@@ -1,13 +1,11 @@
 <template>
   <div>
-    <mChooseArea></mChooseArea>
+    <m-choose-area />
   </div>
 </template>
 
-<script lang='ts' setup>
-import { ref, reactive, computed, watch, onMounted } from 'vue';
-import mChooseArea from '../../components/chooseArea/src/index.vue'
+<script lang="ts" setup>
+import { ref, reactive, computed, watch, onMounted } from "vue";
 </script>
 
-<style lang='less' scoped>
-</style>
+<style lang="less" scoped></style>
